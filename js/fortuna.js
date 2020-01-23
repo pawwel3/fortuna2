@@ -79,7 +79,7 @@ punkty[1]=0;
 punkty[2]=0;
 var nastepny_gracz=0;
 
-
+//Zamiana hasła na -
 for(i=0;i<dlugosc;i++)
 {
 	if(haslo.charAt(i)==" ")haslo1=haslo1+" ";
@@ -110,6 +110,7 @@ function gracze()
 	liczby[3]=300;
 	liczby[4]="400";
 	liczby[5]="500";
+	//funkcja zliczająca zdobyte punkty
 	function kwoty()
 	{
 		var mamona="";
@@ -163,7 +164,7 @@ litery[34] = "Ź";
 
 
 
-	
+	//Wypisywanie liter
 	function start()
 {
 		var tresc_diva ="";
